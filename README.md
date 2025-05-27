@@ -1,30 +1,54 @@
 # The Cold War - A Contest of Ideologies
 
-**An immersive and interactive web-based presentation that explores the Cold War (1947–1991), its causes, major events, ideological confrontations, and lasting global impact.**
+**An interactive, data-rich educational website that visualizes the history, tensions, and global impact of the Cold War (1947–1991).**
 
-![Hero Image](https://placehold.co/800x400?text=Cold+War+Project+Preview)
+> **Live Demo:** [https://coldwarweb.netlify.app](https://coldwarweb.netlify.app)
 
-## Features
+---
 
-- **Stunning UI**: Responsive, modern layout using Tailwind CSS.
-- **Dynamic Visualizations**: Interactive timeline and animated Cold War statistics powered by Chart.js.
-- **StoryMap Integration**: Embedded KnightLab StoryMapJS to showcase Cold War geopolitical hotspots.
-- **Thematic Sections**: Covers origins, key stages, proxy wars, ideology, and collapse of the USSR.
-- **Archive Access**: Direct links to over 10,000 historical documents, photos, and videos.
+## Overview
 
-## Live Preview
+This project is a fully responsive, visually immersive web experience that walks viewers through the major stages and themes of the Cold War era. It combines narrative storytelling with data visualizations and interactive media for a compelling educational presentation.
 
-> Coming soon or deploy manually via GitHub Pages / Netlify.
+## Key Features
 
-## Getting Started
+- **Interactive Timeline**: Navigate major Cold War events with a scrollable timeline.
+- **StoryMapJS Integration**: Explore global Cold War hotspots through a dynamic map interface.
+- **Data Dashboard**: Animated charts and statistics showing military spending, GDP, nuclear arsenals, and more.
+- **Beautiful UI**: Designed with Tailwind CSS, Google Fonts, and modern responsive layout principles.
+- **Multimedia Archive**: Embedded external links to Cold War-era declassified documents, speeches, photos, and videos.
 
-### Prerequisites
+## Technologies Used
 
-No backend required. Just a browser and local/online hosting.
+- **HTML5 & CSS3**
+- **Tailwind CSS** (via CDN)
+- **JavaScript ES6**
+- **Chart.js** for data visualization
+- **KnightLab TimelineJS / StoryMapJS**
+- **Google Fonts + Font Awesome**
 
-### Steps to Run Locally
+## Project Structure
 
-```bash
-git clone https://github.com/yourusername/cold-war-presentation.git
-cd cold-war-presentation
-open index.html  # or use a local server
+```
+
+/cold-war-presentation
+├── index.html         # Main page with all sections
+└── assets/            # Optional: external images, data, icons
+
+```
+
+## Credits
+
+- Timeline and map powered by [KnightLab](https://knightlab.northwestern.edu/)
+- Data and documents sourced from:
+  - [CIA Reading Room](https://www.cia.gov/readingroom/collection/cold-war)
+  - [National Security Archive](https://nsarchive.gwu.edu/)
+  - [C-SPAN Archives](https://www.c-span.org/search/?searchtype=All&query=cold+war)
+
+## License
+
+This project is released under the MIT License.
+
+---
+
+> “History is not a burden on the memory but an illumination of the soul.” — Lord Acton
